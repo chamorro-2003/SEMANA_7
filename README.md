@@ -40,7 +40,7 @@ Para la entidad Cliente se implementó el decorador @dataclass, el cual simplifi
 La clase Restaurante actúa como el centro de administración del sistema, ya que gestiona las colecciones de productos y clientes mediante listas privadas, para esto, ofrece métodos que permiten registrar, listar y buscar información, manteniendo separada la lógica de negocio de la interfaz de usuario, esta organización facilita el control de los datos y permite ampliar el sistema de manera más sencilla en el futuro.
 
 ---
-## 4.-Reflexión sobre la Creación Dinámica de Objetos
+## Reflexión sobre la Creación Dinámica de Objetos
 El paso de utilizar datos definidos directamente en el código a crear objetos mediante información ingresada por el usuario representa un aspecto fundamental en el desarrollo de aplicaciones reales, ya que este proceso permite transformar datos de entrada en objetos validados y estructurados, asegurando que la información cumpla con las reglas del sistema. Además, fortalece la integridad de los datos y favorece la escalabilidad, ya que la misma lógica puede adaptarse posteriormente para trabajar con bases de datos o servicios externos sin modificar los modelos principales.
 
 <div>
